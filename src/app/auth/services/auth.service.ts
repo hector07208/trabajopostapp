@@ -42,4 +42,9 @@ export class AuthService extends BaseHttpService {
       })
     );
   }
+
+
+    private handleAuthSuccess(resp: any): {
+
+  }
 }
